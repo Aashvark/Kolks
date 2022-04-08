@@ -1,16 +1,20 @@
-# Version 1.1 Beta: Kolks
+# Version 1.2 Beta: Kolks
 Kolks is a Programming Language created by: Ash "Pixel" Melvin
 
 Statements in this version:
-- #write&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Write to terminal].
-- #delay&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Delays actions].
-- #define&nbsp;&nbsp;&nbsp;[Define a function or variable].
-- #run&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Run a function]
+- #if and #then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Check Condition and Run a command].
+- #while and #then&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[While loop].
+- #write&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Write to terminal].
+- #delay&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Delays actions].
+- #define&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Define a function or variable].
+- #run&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Run a function]
 
 Features:
 - Simple Arithmetic
 - Variable Reassignment
 - Function Calls in Functions
+- Conditions
+- Loops
 - Errors
 
 Need to Add:
