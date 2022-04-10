@@ -1,0 +1,22 @@
+#import test;
+
+#define var = 3;
+
+#define main:
+    #if var == 3 #then
+        #write var;
+    #end
+    
+    #while var <= 5 #then
+        #write var;
+        #define var = var + 1;
+    #end
+
+    #delay 1;
+
+    #trace "delayed";
+
+    #run notmain;
+#end
+
+#run main;
