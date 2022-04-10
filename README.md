@@ -3,6 +3,8 @@
 ### About Kolks:
 Kolks is a high-level programming language. The goal of Kolks is to make programming as simple as possible. It was designed to have a simple syntax and familiar feel compared to other languages although many advanced techniques are possible. The goal of Kolks is to make programming possible for a wide range of developers while still offering features that let powerful programs be built.
 
+Kolks is Windows Only for the moment :(
+
 Kolk is created by: Ash "Pixel" Melvin.
 
 ### How to install Kolks:
