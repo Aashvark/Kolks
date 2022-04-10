@@ -10,7 +10,7 @@ Kolk is created by: Ash "Pixel" Melvin.
 ### How to install Kolks:
 #### Windows:
 1. Download and run the setup file.
-``KolksSetup1.3-beta.exe``
+``KolksSetup-pre-v1.3-beta.exe``
 This will also add Kolks to the path.  
 2. Start Creating!
 Have fun with Kolks!
