@@ -68,3 +68,28 @@ You can call the function using:
 ```
 #run function;
 ```
+
+#### Delays:
+In order to delay data you need a line of code:
+
+```
+#delay 3;
+```
+
+#### Conditions:
+To make conditional statements:
+
+```
+#if variable == 3 #then
+  $ write any value here $
+#end
+```
+
+#### Loops:
+To make loops:
+
+```
+#while variable == 3 #then
+  $ write any value here $
+#end
+```
