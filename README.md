@@ -18,9 +18,11 @@ Have fun with Kolks
 #### Writing to the Terminal (Writing Things.):  
 In order to write things you need a simple line of code:
 
-`#write "Hello Kolks!";`
+``
+#write "Hello Kolks!";
+``
 
-##### * note: Valid value types are strings, integers, floats, and bools (true, false).*
+##### *note: Valid value types are strings, integers, floats, and bools (true, false).*
 #### Variables:
 In order to store data you need a line of code:
 
@@ -32,7 +34,9 @@ Use the same line of code with a different value to reassign the variable. such 
 
 You can write the value of the function with this command:
 
-`#write variable;`
+``
+#write variable;
+``
 
 ##### note: Valid value types are strings, integers, floats, and bools (true, false);
 
