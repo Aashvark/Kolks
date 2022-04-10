@@ -15,10 +15,35 @@ This will add Kolks to the path.
 Have fun with Kolks
 
 ### How to use Kolks:
-#### Writing to the Terminal (Writing Things.):
-
+#### Writing to the Terminal (Writing Things.):  
 In order to write things you need a simple line of code:
 
 `#write "Hello Kolks!";`
 
-##### note: Valid types are strings, integers, floats, bools (true, false),  
+##### * note: Valid value types are strings, integers, floats, and bools (true, false).*
+#### Variables:
+In order to store data you need a line of code:
+
+`#define variable = "Hello Kolks!";`
+
+Use the same line of code with a different value to reassign the variable. such as:
+
+`#define variable = "Cliche Statement";`
+
+You can write the value of the function with this command:
+
+`#write variable;`
+
+##### note: Valid value types are strings, integers, floats, and bools (true, false);
+
+#### Functions:
+In order to make a function you need these lines of code:
+
+``#define function:
+$ any value here $
+#end
+``
+
+You can call the function using:
+
+`#run function;`
