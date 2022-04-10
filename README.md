@@ -18,12 +18,29 @@ This will add Kolks to the path.
 3. Start Creating!
 Have fun with Kolks
 
+### for linux users:
+install wine, uh- yea thats it. install wine try running it uh yeah.
+
 ### How to use Kolks:
+#### How to run Kolks:
+```
+> kolks [filename].ko
+```
+
 #### Writing to the Terminal (Writing Things.):  
 In order to write things you need a simple line of code:
 
 ```
 #write "Hello Kolks!";
+```
+
+##### *note: Valid value types are strings, integers, floats, and bools (true, false).*
+
+#### Traceing to the Terminal (Debug):  
+In order to write things you need a simple line of code:
+
+```
+#trace "Hello Kolks!";
 ```
 
 ##### *note: Valid value types are strings, integers, floats, and bools (true, false).*
