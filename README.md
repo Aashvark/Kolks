@@ -8,17 +8,14 @@ Kolks is Windows Only for the moment :(
 Kolk is created by: Ash "Pixel" Melvin.
 
 ### How to install Kolks:
+#### Windows:
 1. Download and run the setup file.
 ``KolksSetup1.3-beta.exe``
-2. Open the command prompt and type in:    
-```
-setx /M PATH "%PATH%;c:\Programs\Kolks"
-```
-This will add Kolks to the path.  
-3. Start Creating!
-Have fun with Kolks
+This will also add Kolks to the path.  
+2. Start Creating!
+Have fun with Kolks!
 
-### for linux users:
+#### Linux:
 install wine, uh- yea thats it. install wine try running it uh yeah.
 
 ### How to use Kolks:
