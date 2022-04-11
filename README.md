@@ -1,4 +1,4 @@
-# Pre Version 1.3 Beta: Kolks
+# Pre Version 1.4 Beta: Kolks
 
 ### About Kolks:
 Kolks is a high-level programming language. The goal of Kolks is to make programming as simple as possible. It was designed to have a simple syntax and familiar feel compared to other languages although many advanced techniques are possible. The goal of Kolks is to make programming possible for a wide range of developers while still offering features that let powerful programs be built.
@@ -9,7 +9,7 @@ Kolk is created by: Ash "Pixel" Melvin.
 ### How to install Kolks:
 #### Windows:
 1. Download and run the setup file.
-``KolksSetup-pre-v1.3-beta.exe``
+``KolksSetup-pre-v1.4-beta.exe``
 This will also add Kolks to the path.  
 2. Start Creating!
 Have fun with Kolks!
