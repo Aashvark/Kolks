@@ -15,7 +15,7 @@ This will also add Kolks to the path.
 Have fun with Kolks!
 
 #### Linux:
-install wine, uh- yea thats it. install wine try running it uh yeah.
+Install the Linux Package "wine" and attempt to run it.
 
 ### How to use Kolks:
 #### How to run Kolks:
@@ -111,4 +111,11 @@ To make loops:
 You can import files with:
 ```
 #import [File Name Here];
+```
+
+#### Builtin Functions:
+These functions are:
+```
+&len
+&
 ```
