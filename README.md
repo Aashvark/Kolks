@@ -88,7 +88,7 @@ You can call the function using:
 In order to make a function you need these lines of code:
 
 ```
-#define function():
+#define function(x):
   $ any value here $
 #end
 ```
@@ -96,7 +96,7 @@ In order to make a function you need these lines of code:
 You can call the function using:
 
 ```
-#run function();
+#run function("Hello Kolks");
 ```
 
 #### Delays:
