@@ -117,5 +117,18 @@ You can import files with:
 These functions are:
 ```
 &len
-&
+&str
+&int
+&float
+&input
+&random
+&time
 ```
+
+'&len' Gives length of a object. &len [obj]
+'&str' Tranforms object to string. &str [obj]
+'&int' Tranforms object to integer. &int [obj]
+'&float' Tranforms object to float. &float [obj]
+'&input' Tranforms object to integer. &int [obj]
+'&random' Returns a value between 2 numbers. &random [obj1] [obj2]
+'&time' Returns time. &time [format]
