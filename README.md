@@ -1,4 +1,7 @@
-# Pre Version 1.4 Beta: Kolks
+# Pre Version 1.5 Beta: Kolks
+
+## We have a website! https://kolks.glitch.me.
+## Here you can donate, and apply for a non-paying job. 
 
 ### About Kolks:
 Kolks is a high-level programming language. The goal of Kolks is to make programming as simple as possible. It was designed to have a simple syntax and familiar feel compared to other languages although many advanced techniques are possible. The goal of Kolks is to make programming possible for a wide range of developers while still offering features that let powerful programs be built.
@@ -9,7 +12,7 @@ Kolk is created by: Ash "Pixel" Melvin.
 ### How to install Kolks:
 #### Windows:
 1. Download and run the setup file.
-``KolksSetup-pre-v1.4-beta.exe``
+``KolksSetup-pre-v1.5-beta.exe``
 This will also add Kolks to the path.  
 2. Start Creating!
 Have fun with Kolks!
@@ -71,7 +74,7 @@ $ This is a comment! $
 In order to make a function you need these lines of code:
 
 ```
-#define function:
+#define function():
   $ any value here $
 #end
 ```
@@ -79,7 +82,21 @@ In order to make a function you need these lines of code:
 You can call the function using:
 
 ```
-#run function;
+#run function();
+```
+
+In order to make a function you need these lines of code:
+
+```
+#define function():
+  $ any value here $
+#end
+```
+
+You can call the function using:
+
+```
+#run function();
 ```
 
 #### Delays:
