@@ -85,7 +85,7 @@ You can call the function using:
 #run function();
 ```
 
-In order to make a function you need these lines of code:
+In order to arguments you can:
 
 ```
 #define function(x):
