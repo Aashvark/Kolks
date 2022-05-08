@@ -1,4 +1,4 @@
-# Pre Version 1.5 Beta: Kolks
+# Pre Version 1.6 Beta Part b: Kolks
 
 ## We have a website! https://kolks.glitch.me.
 ## Here you can donate, and apply for a non-paying job. 
@@ -155,3 +155,5 @@ These functions are:
 '&random' Returns a value between 2 numbers. &random [obj1] [obj2]
 
 '&time' Returns time. &time [format]
+
+'&get' returns value from list. &get [list] [index]
