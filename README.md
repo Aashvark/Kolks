@@ -1,4 +1,4 @@
-# Pre Version 1.5 Beta: Kolks
+# Pre Version 1.6 Beta part a: Kolks
 
 ## We have a website! https://kolks.glitch.me.
 ## Here you can donate, and apply for a non-paying job. 
@@ -12,7 +12,7 @@ Kolks is created by: Ash "Pixel" Melvin.
 ### How to install Kolks:
 #### Windows:
 1. Download and run the setup file.
-``KolksSetup-pre-v1.5-beta.exe``
+``KolksSetup-pre-v1.6-beta-a.exe``
 This will also add Kolks to the path.  
 2. Start Creating!
 Have fun with Kolks!
