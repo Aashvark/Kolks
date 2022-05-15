@@ -1,6 +1,7 @@
-# Pre Version 1.6 Beta part a: Kolks
+# Kolks Version 1!
+### It's finally here after a month!
 
-## We have a website! https://kolks.glitch.me.
+## We have a website! https://kolks.glitch.me/.
 ## Here you can donate, and apply for a non-paying job. 
 
 ### About Kolks:
@@ -12,7 +13,7 @@ Kolks is created by: Ash "Pixel" Melvin.
 ### How to install Kolks:
 #### Windows:
 1. Download and run the setup file.
-``KolksSetup-pre-v1.6-beta-a.exe``
+``KolksV1Setup.exe``
 This will also add Kolks to the path.  
 2. Start Creating!
 Have fun with Kolks!
@@ -82,7 +83,7 @@ In order to make a function you need these lines of code:
 You can call the function using:
 
 ```
-#run function();
+function();
 ```
 
 In order to arguments you can:
@@ -96,7 +97,7 @@ In order to arguments you can:
 You can call the function using:
 
 ```
-#run function("Hello Kolks");
+function("Hello Kolks");
 ```
 
 #### Delays:
@@ -112,6 +113,16 @@ To make conditional statements:
 ```
 #if variable == 3 #then
   $ write any value here $
+#end
+```
+
+you can now chain them!
+
+```kolks
+#if variable == 3 #then
+  $ write any value here $
+#elif variable == 4 #then
+  $ write something else $
 #end
 ```
 
@@ -142,16 +153,12 @@ These functions are:
 &time
 ```
 
-'&len' Gives length of a object. &len [obj]
-
-'&str' Tranforms object to string. &str [obj]
-
-'&int' Tranforms object to integer. &int [obj]
-
-'&float' Tranforms object to float. &float [obj]
+'&cast' Tranforms object to float. &float [obj]
 
 '&input' Tranforms object to integer. &int [obj]
 
 '&random' Returns a value between 2 numbers. &random [obj1] [obj2]
 
 '&time' Returns time. &time [format]
+
+'&list' Returns or adds a list value. &list [add, get] [obj] [value]
