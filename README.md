@@ -2,7 +2,8 @@
 ### It's finally here after a month!
 
 ## We have a website! https://kolks.glitch.me/.
-## Here you can donate, and apply for a non-paying job. 
+## Here you can donate, and apply for a non-paying job.
+## And a official discord https://discord.gg/vu7bxCHu84. 
 
 ### About Kolks:
 Kolks is a high-level programming language. The goal of Kolks is to make programming as simple as possible while also being able to make programming possible for a wide range of developers while still offering features that let powerful programs be built. It was designed to have a simple syntax and familiar feel compared to other languages although many advanced techniques are possible.
