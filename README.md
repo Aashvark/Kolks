@@ -1,5 +1,5 @@
 # Kolks Version 1.1!
-### This is a proformace update, mainly to fix things that was horribly done in v1!
+### This is a performace update, mainly to fix things that was horribly done in v1!
 
 ## Website: https://kolks.glitch.me/.
 ## Here you can donate, and apply for a non-paying job.
