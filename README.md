@@ -1,7 +1,7 @@
-# Kolks Version 1!
-### It's finally here after a month!
+# Kolks Version 1.1!
+### This is a proformace update, mainly to fix things that was horribly done in v1!
 
-## We have a website! https://kolks.glitch.me/.
+## Website: https://kolks.glitch.me/.
 ## Here you can donate, and apply for a non-paying job.
 ## And a official discord https://discord.gg/vu7bxCHu84. 
 
@@ -14,7 +14,7 @@ Kolks is created by: Ash "Pixel" Melvin.
 ### How to install Kolks:
 #### Windows:
 1. Download and run the setup file.
-``KolksV1Setup.exe``
+``KolksV1.1Setup.exe``
 This will also add Kolks to the path.  
 2. Start Creating!
 Have fun with Kolks!
@@ -31,7 +31,7 @@ Install the Linux Package "wine" and attempt to run it.
 #### Writing to the Terminal (Writing Things.):  
 In order to write things you need a simple line of code:
 
-```
+```md
 #write "Hello Kolks!";
 ```
 
@@ -40,7 +40,7 @@ In order to write things you need a simple line of code:
 #### Traceing to the Terminal (Debug):  
 In order to write things you need a simple line of code:
 
-```
+```md
 #trace "Hello Kolks!";
 ```
 
@@ -48,19 +48,26 @@ In order to write things you need a simple line of code:
 #### Variables:
 In order to store data you need a line of code:
 
-```
-#define variable = "Hello Kolks!";
+```md
+#define variable ~ "Hello Kolks!";
 ```
 
 Use the same line of code with a different value to reassign the variable. such as:
 
+```md
+#define variable ~ "Cliche Statement";
 ```
-#define variable = "Cliche Statement";
+
+you can make atoms (Variables with the same name and value, only works with string currently):
+```md
+#define :: ~ "greatness"
 ```
+
+you can run these as you would down there.
 
 You can write the value of the function with this command:
 
-```
+```md
 #write variable;
 ```
 
@@ -68,38 +75,46 @@ You can write the value of the function with this command:
 
 #### Comments:
 To comment surround anything with '$':
-```
+```md
 $ This is a comment! $
 ```
 
 #### Functions:
 In order to make a function you need these lines of code:
 
-```
-#define function():
+```md
+#define function ~ () {
   $ any value here $
-#end
+}
 ```
 
 You can call the function using:
 
-```
+```md
 function();
 ```
 
 In order to arguments you can:
 
-```
-#define function(x):
+```md
+#define function ~ (x) {
   $ any value here $
-#end
+}
 ```
 
 You can call the function using:
 
-```
+```md
 function("Hello Kolks");
 ```
+
+You can make A self running FUNCTION with:
+```md
+#define *% ~ () {
+  $ value not found $
+}
+```
+you don't run this. you can't make multiple.
 
 #### Delays:
 In order to delay data you need a line of code:
@@ -112,28 +127,28 @@ In order to delay data you need a line of code:
 To make conditional statements:
 
 ```
-#if variable == 3 #then
+#if variable == 3 {
   $ write any value here $
-#end
+}
 ```
 
 you can now chain them!
 
 ```kolks
-#if variable == 3 #then
+#if variable == 3 {
   $ write any value here $
-#elif variable == 4 #then
+#elif variable == 4 {
   $ write something else $
-#end
+}
 ```
 
 #### Loops:
 To make loops:
 
 ```
-#while variable == 3 #then
+#while variable == 3 {
   $ write any value here $
-#end
+}
 ```
 
 #### Imports:
@@ -145,21 +160,14 @@ You can import files with:
 #### Builtin Functions:
 These functions are:
 ```
-&len
-&str
-&int
-&float
-&input
-&random
-&time
+&cast.len(obj)
+&cast.str(obj)
+&cast.int(obj)
+&cast.float(obj)
+&input(str)
+&random(int, int)
+&time(format) - (same as python's datetime strftime formatting)
+&list.get(obj, index)
+&list.add(obj, value)
+&list.remove(obj, value | index)
 ```
-
-'&cast' Tranforms object to float. &float [obj]
-
-'&input' Tranforms object to integer. &int [obj]
-
-'&random' Returns a value between 2 numbers. &random [obj1] [obj2]
-
-'&time' Returns time. &time [format]
-
-'&list' Returns or adds a list value. &list [add, get] [obj] [value]
