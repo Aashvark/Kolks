@@ -1,5 +1,6 @@
 # Kolks Version 1.2!
 ### Haha 1 month later and not much was done...
+### The next update will taake more time as its a rework of everything for efficientcy and better syntax.
 
 ## Website: https://kolks.glitch.me/.
 ## Here you can donate, and apply for a non-paying job.
