@@ -1,5 +1,5 @@
-# Kolks Version 1.1!
-### This is a performace update, mainly to fix things that was horribly done in v1!
+# Kolks Version 1.2!
+### Haha 1 month later and nt much was done...
 
 ## Website: https://kolks.glitch.me/.
 ## Here you can donate, and apply for a non-paying job.
@@ -14,7 +14,7 @@ Kolks is created by: Ash "Pixel" Melvin.
 ### How to install Kolks:
 #### Windows:
 1. Download and run the setup file.
-``KolksV1.1Setup.exe``
+``KolksV1.2Setup.exe``
 This will also add Kolks to the path.  
 2. Start Creating!
 Have fun with Kolks!
@@ -119,14 +119,14 @@ you don't run this. you can't make multiple.
 #### Delays:
 In order to delay data you need a line of code:
 
-```
+```md
 #delay 3;
 ```
 
 #### Conditions:
 To make conditional statements:
 
-```
+```md
 #if variable == 3 {
   $ write any value here $
 }
@@ -134,7 +134,7 @@ To make conditional statements:
 
 you can now chain them!
 
-```kolks
+```md
 #if variable == 3 {
   $ write any value here $
 #elif variable == 4 {
@@ -145,7 +145,7 @@ you can now chain them!
 #### Loops:
 To make loops:
 
-```
+```md
 #while variable == 3 {
   $ write any value here $
 }
@@ -153,21 +153,28 @@ To make loops:
 
 #### Imports:
 You can import files with:
-```
+```md
 #import [File Name Here];
+```
+
+#### Clear:
+You can clear the terminal with:
+```md
+#clear;
 ```
 
 #### Builtin Functions:
 These functions are:
-```
+```md
 &cast.len(obj)
 &cast.str(obj)
 &cast.int(obj)
 &cast.float(obj)
 &input(str)
 &random(int, int)
-&time(format) - (same as python's datetime strftime formatting)
+&time(format) - (same as python's datetime |  strftime formatting)
 &list.get(obj, index)
 &list.add(obj, value)
 &list.remove(obj, value | index)
+&access.file(fn, type (w, r), (w only) value)
 ```
