@@ -1,5 +1,5 @@
 # Kolks Version 1.2!
-### Haha 1 month later and nt much was done...
+### Haha 1 month later and not much was done...
 
 ## Website: https://kolks.glitch.me/.
 ## Here you can donate, and apply for a non-paying job.
