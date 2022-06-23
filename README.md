@@ -1,42 +1,29 @@
-# Kolks Version 1.2!
-### Haha 1 month later and not much was done...
-### The next update will taake more time as its a rework of everything for efficientcy and better syntax.
-
-## Website: https://kolks.glitch.me/.
-## Here you can donate, and apply for a non-paying job.
-## And a official discord https://discord.gg/vu7bxCHu84. 
-
+# Kolks Version 1.3!
+## Introduction
 ### About Kolks:
-Kolks is a high-level programming language. The goal of Kolks is to make programming as simple as possible while also being able to make programming possible for a wide range of developers while still offering features that let powerful programs be built. It was designed to have a simple syntax and familiar feel compared to other languages although many advanced techniques are possible.
+Kolks is a mostly high-level programming language. The goal of Kolks was to originally create a moderatly good programming language that may used professionally but, the goal of Kolks now is to make it easy to learn while still being capable to create a wide-range of products and programs.
 
-Kolks is created by: Ash "Pixel" Melvin.
+Kolks is created by: Ashton "Pixel" Melvin.
 
-##### *note: Kolks only has a windows build at the moment.*
 ### How to install Kolks:
 #### Windows:
-1. Download and run the setup file.
-``KolksV1.2Setup.exe``
-This will also add Kolks to the path.  
-2. Start Creating!
-Have fun with Kolks!
+1. Download and run the setup file. ``KolksV1.3Setup.exe`` This will also add Kolks to the path.  
+2. Start Creating! Have fun with Kolks!
 
 #### Linux:
 Install the Linux Package "wine" and attempt to run it.
 
-### How to use Kolks:
 #### How to run Kolks:
 ```
 > kolks [filename].ko
 ```
 
-#### Writing to the Terminal (Writing Things.):  
-In order to write things you need a simple line of code:
+#### Website: https://kolks.glitch.me/
+#### Discord https://discord.gg/vu7bxCHu84 
 
-```md
-#write "Hello Kolks!";
-```
-
-##### *note: Valid value types are strings, integers, floats, and bools (true, false).*
+# Getting Started:
+## Hello Kolks!
+With Kolks installed go to your desired IDE (or Notepad if you want :D)
 
 #### Traceing to the Terminal (Debug):  
 In order to write things you need a simple line of code:
