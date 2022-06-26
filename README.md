@@ -36,6 +36,6 @@ This should output:
 Optionally for single-file projects such as this one you can use a function that only runs the main file. Such as:
 ```objectivec
   #define *% ~ () {
-    #write "This should only show if this is the file your running"
-  }
+    #write "This should only show if this is the file your running";
+  };
 ```
