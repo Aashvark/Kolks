@@ -23,146 +23,19 @@ Install the Linux Package "wine" and attempt to run it.
 
 # Getting Started:
 ## Hello Kolks!
-With Kolks installed go to your desired IDE (or Notepad if you want :D)
+Make a new folder, this is where our project will be located. Lets name it "HelloKolks". Lets create the main file, which will be called "main.ko".
 
-#### Traceing to the Terminal (Debug):  
-In order to write things you need a simple line of code:
-
-```md
-#trace "Hello Kolks!";
+Lets write "Hello Kolks":
+```objectivec
+  #write "Hello Kolks!";
 ```
-
-##### *note: Valid value types are strings, integers, floats, and bools (true, false).*
-#### Variables:
-In order to store data you need a line of code:
-
-```md
-#define variable ~ "Hello Kolks!";
+This should output:
 ```
-
-Use the same line of code with a different value to reassign the variable. such as:
-
-```md
-#define variable ~ "Cliche Statement";
+  Hello Kolks!
 ```
-
-you can make atoms (Variables with the same name and value, only works with string currently):
-```md
-#define :: ~ "greatness"
-```
-
-you can run these as you would down there.
-
-You can write the value of the function with this command:
-
-```md
-#write variable;
-```
-
-##### note: Valid value types are strings, integers, floats, and bools (true, false);
-
-#### Comments:
-To comment surround anything with '$':
-```md
-$ This is a comment! $
-```
-
-#### Functions:
-In order to make a function you need these lines of code:
-
-```md
-#define function ~ () {
-  $ any value here $
-}
-```
-
-You can call the function using:
-
-```md
-function();
-```
-
-In order to arguments you can:
-
-```md
-#define function ~ (x) {
-  $ any value here $
-}
-```
-
-You can call the function using:
-
-```md
-function("Hello Kolks");
-```
-
-You can make A self running FUNCTION with:
-```md
-#define *% ~ () {
-  $ value not found $
-}
-```
-you don't run this. you can't make multiple.
-
-#### Delays:
-In order to delay data you need a line of code:
-
-```md
-#delay 3;
-```
-
-#### Conditions:
-To make conditional statements:
-
-```md
-#if variable == 3 {
-  $ write any value here $
-}
-```
-
-you can now chain them!
-
-```md
-#if variable == 3 {
-  $ write any value here $
-#elif variable == 4 {
-  $ write something else $
-}
-```
-
-#### Loops:
-To make loops:
-
-```md
-#while variable == 3 {
-  $ write any value here $
-}
-```
-
-#### Imports:
-You can import files with:
-```md
-#import [File Name Here];
-```
-
-#### Clear:
-You can clear the terminal with:
-```md
-#clear;
-```
-
-#### Builtin Functions:
-These functions are:
-```md
-&cast.len(obj)
-&cast.str(obj)
-&cast.int(obj)
-&cast.float(obj)
-&input(str)
-&random(int, int)
-&time(format) - (same as python's datetime |  strftime formatting)
-&list.get(obj, index)
-&list.add(obj, value)
-&list.remove(obj, value | index)
-&access.file(fn, type (w, r), (w only) value)
+Optionally for single-file projects such as this one you can use a function that only runs the main file. Such as:
+```objectivec
+  #define *% ~ () {
+    #write "This should only show if this is the file your running"
+  }
 ```
