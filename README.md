@@ -13,11 +13,6 @@ Kolks is created by: Ashton "Pixel" Melvin.
 #### Linux:
 Install the Linux Package "wine" and attempt to run it.
 
-#### How to run Kolks:
-```
-> kolks [filename].ko
-```
-
 #### Website: https://kolks.glitch.me/
 #### Discord https://discord.gg/vu7bxCHu84 
 
@@ -30,7 +25,8 @@ Lets write "Hello Kolks":
   #write "Hello Kolks!";
 ```
 This should output:
-```
+```log
+> kolks main.ko
   Hello Kolks!
 ```
 Optionally for single-file projects such as this one you can use a function that only runs the main file. Such as:
@@ -38,4 +34,9 @@ Optionally for single-file projects such as this one you can use a function that
   #define *% ~ () {
     #write "This should only show if this is the file your running";
   };
+```
+This should output the same thing:
+```log
+> kolks main.ko
+  Hello Kolks!
 ```
