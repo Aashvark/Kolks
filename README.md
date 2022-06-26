@@ -69,7 +69,7 @@ This should output:
   # Kolks STARTUP LOG: [Your Date and Time] #
 ```
 
-Uh-oh it seems that we haven't ran our function or used the variable lets do that.
+Uh-oh it seems that we haven't ran our function or used the variable at all! Lets quickly do that.
 You run functions like:
 ```objectivec
   pineTree();
