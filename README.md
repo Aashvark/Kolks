@@ -1,4 +1,7 @@
-# ![Kolks Logo](/kolks.png "Kolks Logo") Kolks Version 1.3!
+# ![Kolks Logo](/kolks_full.png "Kolks Logo")
+
+Version 1.3, Build: ***Stable***
+
 ## Introduction
 ### About Kolks:
 Kolks is a high-level programming language. The goal of Kolks was to originally create a moderately good and functional programming language that may used in professional cases. Instead the goal of Kolks is to make a easy to learn programming language, while still having the capabilities to create a wide-range of products and programs.
