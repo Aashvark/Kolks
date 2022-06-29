@@ -60,8 +60,8 @@ You make can make functions like so:
 
 This is a pretty good function but since it doesn't have anything in it lets add a variable:
 ```objectivec
-  #define pineTree ~ () {
-    #define pinecones ~ "This is a Quality Pinecone.";
+  #define milk ~ () {
+    #define coffee ~ "Just perfect";
   };
 ```
 
@@ -75,15 +75,15 @@ This should output:
 Uh-oh it seems that we haven't ran our function or used the variable at all! Lets quickly do that.
 You run functions like:
 ```objectivec
-  pineTree();
+  milk();
 ```
 
 and for now you can use `#write pinecones;` to print the current variable.
 Your file should now look like:
 ```objectivec
-  #define pineTree ~ () {
-    #define pinecones ~ "This is a Quality Pinecone.";
-    #write pinecones;
+  #define milk ~ () {
+    #define coffee ~ "This is a Quality Pinecone.";
+    #write coffee;
   };
-  pineTree();
+  milk();
 ```
