@@ -61,7 +61,7 @@ You make can make functions like so:
 This is a pretty bland function but since it doesn't have anything in it lets add a variable:
 ```objectivec
   #define milk ~ () {
-    #define coffee ~ "Just perfect";
+    #define coffee ~ "Perfectly done";
   };
 ```
 
@@ -78,11 +78,11 @@ You run functions like:
   milk();
 ```
 
-and for now you can use `#write pinecones;` to print the current variable.
+and for now you can use `#write coffee;` to print the current variable.
 Your file should now look like:
 ```objectivec
   #define milk ~ () {
-    #define coffee ~ "This is a Quality Pinecone.";
+    #define coffee ~ "Perfectly done";
     #write coffee;
   };
   milk();
