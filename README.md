@@ -53,12 +53,12 @@ This should output the same thing:
 After writing your first Kolks Script you will need to learn how to store variables and make functions.
 You make can make functions like so:
 ```objectivec
-  #define pineTree ~ () {
+  #define milk ~ () {
     
   };
 ```
 
-This is a pretty good function but since it doesn't have anything in it lets add a variable:
+This is a pretty bland function but since it doesn't have anything in it lets add a variable:
 ```objectivec
   #define milk ~ () {
     #define coffee ~ "Just perfect";
