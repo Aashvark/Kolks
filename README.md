@@ -1,6 +1,6 @@
 # ![Kolks Logo](/kolks_full.png "Kolks Logo")
 
-Version 1.3, Build: ***Stable***
+Version 1.3-alpha, Build: ***Stable*** ##### for the first time in forever!
 
 ## Introduction
 ### About Kolks:
