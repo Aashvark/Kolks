@@ -10,7 +10,7 @@ Kolks is created by: Ashton "Pixel" Melvin.
 
 ### How to install Kolks:
 #### Windows:
-1. Download and run the setup file. ``KolksV1.3Setup.exe`` This will also add Kolks to the path.  
+1. Download and run the setup file. ``Kolks-v1.3-alpha.exe`` This will also add Kolks to the path.  
 2. Start Creating! Have fun with Kolks!
 
 #### Linux:
@@ -31,11 +31,12 @@ Lets write "Hello Kolks":
 This should output:
 ```log
 > kolks main.ko
-  # Kolks STARTUP LOG: [Your Date and Time] #
-  Hello Kolks!
+  # Kolks Program Log: [Your Date and Time] #
+  Hello Kolks
+  # Kolks Program Terminated: [time]
 ```
 
-Optionally for single-file projects such as this one you can use a function that only runs the main file. Such as:
+Optionally for single-file projects such as this one you can use a entry function that only runs the main file. Such as:
 ```objectivec
   #define *% ~ () {
     #write "This should only show if this is the file your running";
@@ -45,8 +46,9 @@ Optionally for single-file projects such as this one you can use a function that
 This should output the same thing:
 ```log
 > kolks main.ko
-  # Kolks STARTUP LOG: [Your Date and Time] #
-  Hello Kolks!
+  # Kolks Program Log: [Your Date and Time] #
+  Hello Kolks
+  # Kolks Program Terminated: [time]
 ```
 
 ## Group and Assign
@@ -69,7 +71,8 @@ Okay now that we know how to make functions lets run it!
 This should output:
 ```log
 > kolks main.ko
-  # Kolks STARTUP LOG: [Your Date and Time] #
+  # Kolks Program Log: [Your Date and Time] #
+  # Kolks Program Terminated: [time]
 ```
 
 Uh-oh it seems that we haven't ran our function or used the variable at all! Lets quickly do that.
@@ -87,3 +90,12 @@ Your file should now look like:
   };
   milk();
 ```
+This should output:
+```log
+> kolks main.ko
+  # Kolks Program Log: [Your Date and Time] #
+  Perfectly done
+  # Kolks Program Terminated: [time]
+```
+# Beginner Concepts
+## Conditions
