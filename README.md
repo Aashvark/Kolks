@@ -1,6 +1,6 @@
 # ![Kolks Logo](/kolks_full.png "Kolks Logo")
 
-Version 1.3-alpha, Build: ***Stable*** ##### for the first time in forever!
+Version 1.3, Build: ***Stable***
 
 ## Introduction
 ### About Kolks:
@@ -10,7 +10,7 @@ Kolks is created by: Ashton "Pixel" Melvin.
 
 ### How to install Kolks:
 #### Windows:
-1. Download and run the setup file. ``Kolks-v1.3-alpha.exe`` This will also add Kolks to the path.  
+1. Download and run the setup file. ``Kolks-v1.3.exe`` This will also add Kolks to the path.  
 2. Start Creating! Have fun with Kolks!
 
 #### Linux:
