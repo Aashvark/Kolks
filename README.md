@@ -16,8 +16,10 @@ Kolks is created by: Ashton "Pixel" Melvin.
 #### Linux:
 Install the Linux Package "wine" and attempt to run it.
 
+# Official Links:
 #### Website: https://kolks.glitch.me/
-#### Discord https://discord.gg/vu7bxCHu84 
+#### Discord https://discord.gg/vu7bxCHu84
+#### Twitter: https://twitter.com/KensuiE
 
 # Getting Started:
 ## Hello Kolks!
