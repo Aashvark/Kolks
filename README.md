@@ -19,6 +19,7 @@ Install the Linux Package "wine" and attempt to run it.
 # Official Links:
 #### Website: https://kolks.glitch.me/
 #### GitHub : https://github.com/AshPixel/Kolks/
+#### VSCode : https://marketplace.visualstudio.com/items?itemName=KolksTeam.kolks
 #### Discord: https://discord.gg/vu7bxCHu84
 #### Twitter: https://twitter.com/KensuiE
 
