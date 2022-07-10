@@ -18,7 +18,8 @@ Install the Linux Package "wine" and attempt to run it.
 
 # Official Links:
 #### Website: https://kolks.glitch.me/
-#### Discord https://discord.gg/vu7bxCHu84
+#### GitHub : https://github.com/AshPixel/Kolks/
+#### Discord: https://discord.gg/vu7bxCHu84
 #### Twitter: https://twitter.com/KensuiE
 
 # Getting Started:
@@ -33,7 +34,6 @@ Lets write "Hello Kolks":
 This should output:
 ```log
 > kolks main.ko
-  # Kolks Program Log: [Your Date and Time] #
   Hello Kolks
   # Kolks Program Terminated: [time]
 ```
@@ -48,7 +48,6 @@ Optionally for single-file projects such as this one you can use a entry functio
 This should output the same thing:
 ```log
 > kolks main.ko
-  # Kolks Program Log: [Your Date and Time] #
   Hello Kolks
   # Kolks Program Terminated: [time]
 ```
@@ -73,7 +72,6 @@ Okay now that we know how to make functions lets run it!
 This should output:
 ```log
 > kolks main.ko
-  # Kolks Program Log: [Your Date and Time] #
   # Kolks Program Terminated: [time]
 ```
 
@@ -95,9 +93,23 @@ Your file should now look like:
 This should output:
 ```log
 > kolks main.ko
-  # Kolks Program Log: [Your Date and Time] #
   Perfectly done
   # Kolks Program Terminated: [time]
 ```
 # Beginner Concepts
 ## Conditions
+Conditions (If you don't know already) are statements where the output only runs if the condition is true.
+As a example lets set a condition so see if apples are red:
+```objectivec
+#define apples ~ "red";
+#if apples == "red" {
+  #write "Apples are red";
+};
+``` 
+If we run the file:
+```
+> kolks main.ko
+  Apples are red
+  # Kolks Program Terminated: [time]
+```
+Success!
