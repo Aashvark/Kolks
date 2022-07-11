@@ -34,9 +34,8 @@ Lets write "Hello Kolks":
 
 This should output:
 ```log
-> kolks main.ko
-  Hello Kolks
-  # Kolks Program Terminated: [time]
+Hello Kolks
+# [time] ms
 ```
 
 Optionally for single-file projects such as this one you can use a entry function that only runs the main file. Such as:
@@ -48,9 +47,8 @@ Optionally for single-file projects such as this one you can use a entry functio
 
 This should output the same thing:
 ```log
-> kolks main.ko
-  Hello Kolks
-  # Kolks Program Terminated: [time]
+Hello Kolks
+# Kolks Program Terminated: [time]
 ```
 
 ## Group and Assign
@@ -72,11 +70,11 @@ This is a pretty bland function but since it doesn't have anything in it lets ad
 Okay now that we know how to make functions lets run it!
 This should output:
 ```log
-> kolks main.ko
-  # Kolks Program Terminated: [time]
+# [time] ms
 ```
 
-Uh-oh it seems that we haven't ran our function or used the variable at all! Lets quickly do that.
+Uh-oh it seems that we don't have a output.
+Since we haven't ran our function or used the variable at all! Lets quickly do that.
 You run functions like:
 ```objectivec
   milk();
@@ -93,9 +91,8 @@ Your file should now look like:
 ```
 This should output:
 ```log
-> kolks main.ko
-  Perfectly done
-  # Kolks Program Terminated: [time]
+Perfectly done
+# [time] ms
 ```
 # Beginner Concepts
 ## Conditions
@@ -108,9 +105,50 @@ As a example lets set a condition so see if apples are red:
 };
 ``` 
 If we run the file:
-```
-> kolks main.ko
-  Apples are red
-  # Kolks Program Terminated: [time]
+```log
+Apples are red
+# [time] ms
 ```
 Success!
+
+Since we can do one lets do more ! 
+```objectivec
+#define apples ~ "red";
+#if apples == "red" {
+  #write true;
+};
+#if apples == "blue" {
+  #write false;
+};
+#if apples == "green" {
+  #write false;
+};
+```
+
+As this would work as intended lets trim it a bit by replacing some of the if statements with a elif statement.
+This makes the code cleaner and gets rid of unexepected outputs.
+
+```objectivec
+#define apples ~ "red";
+#if apples == "red" {
+  #write true;
+} #elif apples == "blue" {
+  #write false;
+} #elif apples == "green" {
+  #write false;
+};
+```
+
+The result should be:
+```log
+true
+# [time] ms
+```
+
+Similar to the if statement we have the while statement:
+```objectivec
+#while true {
+  #write "Hi";
+};
+```
+but unlike the if statement you cannot chain them and they run until the condition isnt true anymore.
