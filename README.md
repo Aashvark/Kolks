@@ -31,7 +31,8 @@ Lets write "Hello Kolks":
 ```objectivec
   #write "Hello Kolks!";
 ```
-
+In order to run it use the command `kolks main.ko`
+or go to the folder where the file is held and open it.
 This should output:
 ```log
 Hello Kolks
